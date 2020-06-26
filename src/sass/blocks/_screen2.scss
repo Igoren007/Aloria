@@ -1,0 +1,46 @@
+.screen2 {
+    padding: 78px 97px 0 97px;
+    &__item {
+        padding: 50px 97px 99px 97px;
+        display: flex;
+        &--without-bottom {
+            padding-bottom: 0px;
+        }
+        &-img1 {
+            width: 363px;
+            height: 345px;
+            border-bottom: 1px solid #DDA859;
+        }
+        &-text1 {
+            padding-left: 30px;
+            font-size: 18px;
+            line-height: 22px;
+            color: #000000;
+            & p {
+                padding-bottom: 40px;
+                margin: 0;
+            }
+            & p:nth-child(3) {
+                padding-right: 97px;
+            }
+        }
+        &-img2 {
+            width: 360px;
+            height: 392px;
+            & img {
+                height: 100%;
+            }
+        }
+        &-text2 {
+            padding-right: 29px;
+            font-size: 18px;
+            line-height: 22px;
+            color: #000000;
+            & p {
+                padding-bottom: 40px;
+                margin: 0;
+                text-align: right;
+            }
+        }
+    }
+}

@@ -1,0 +1,32 @@
+.btn {
+    width: 264px;
+    height: 50px;
+    background: #DB0707;
+    border-radius: 35px;
+    border: none;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    &--sign-up {
+        display: block;
+        width: 361px;
+        height: 60px;
+        margin: 0 auto;
+    }
+    &--results {
+        
+        display: block;
+        width: 361px;
+        height: 60px;
+        margin: 0 auto;
+    }
+    &--footer {
+        width: 243px;
+        height: 47px;
+        background: #EC2808;
+        border-radius: 10px;
+    }
+}

@@ -1,0 +1,64 @@
+.comment {
+    background: #FFFFFF;
+    padding: 30px;
+    width: 946px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.15);
+    margin-bottom: 60px;
+    position: relative;
+    &:before {
+        content: '';
+        display: block;
+        position: absolute;
+        right: 30px;
+        top: -10px;
+        width: 40px;
+        height: 40px;
+        background: url('../../icons/kav.png') center (center / cover) no-repeat;
+
+    }
+    &__header {
+        display: flex;
+    }
+    &__img {
+        width: 58px;
+        height: 55px;
+    }
+    &__info {
+        margin-left: 20px;
+        margin-bottom: 30px;
+    }
+    &__author-name {
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 17px;
+        color: #000000;
+        margin-bottom: 15px;
+    }
+    &__line {
+        width: 262px;
+        background: #714271;
+        position: absolute;
+        display: block;
+        left: 0px
+    }
+    &__title {
+        font-weight: bold;
+        font-size: 16px;
+        font-style: italic;
+        line-height: 19px;
+        text-transform: uppercase;
+        color: #000000;
+    }
+    &__text {
+        padding-top: 30px;
+    }
+    &__text-item {
+        font-size: 16px;
+        line-height: 19px;
+        font-weight: 600;
+        & span {
+            color: #9A2069;
+        }
+    }
+}
