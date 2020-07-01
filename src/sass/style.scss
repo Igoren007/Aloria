@@ -4,7 +4,10 @@
 
 * {
     font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
 }
+
+
 
 .container {
     position: relative;
@@ -23,3 +26,4 @@
 @import 'blocks/results.scss';
 @import 'blocks/footer.scss';
 @import 'blocks/title.scss';
+@import 'base/media.scss';

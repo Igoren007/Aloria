@@ -10,11 +10,11 @@
         height: 406px;
     }
     &__img {
-        height: 100%;
+        max-width: 100%;
+        height: auto;
     }
     &__info {
         padding-left: 28px;
-
     }
     &__title {
         font-weight: bold;

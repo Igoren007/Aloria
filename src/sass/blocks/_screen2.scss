@@ -10,6 +10,9 @@
             width: 363px;
             height: 345px;
             border-bottom: 1px solid #DDA859;
+            & img {
+                height: 100%;
+            }
         }
         &-text1 {
             padding-left: 30px;

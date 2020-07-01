@@ -17,9 +17,9 @@
             <div class="promo__date">18 февраля в 20:00 мск</div>
             <h1 class="promo__title">АКТИВАЦИЯ ПОТОКА ФИНАНСОВОЙ УДАЧИ</h1>
             <div class="promo__subtitle">На практикуме вы разблокируете свой денежный поток и научитесь подключаться к Эгрегору денег, в результате чего увеличите благосостояние  и улучшите качество своей жизни</div>
-            <form class="promo__form">
-                <input class="promo__form-input" placeholder="Введите e-mail">
-                <button class="btn">ЗАПИСАТЬСЯ БЕСПЛАТНО</button> 
+            <form class="promo__form" name="input_email" action="" method="">
+                <input class="promo__form-input" type="email" name="email" placeholder="Введите e-mail">
+                <input type="submit" class="btn" value="ЗАПИСАТЬСЯ БЕСПЛАТНО"> 
             </form>
             <div class="promo__text">Я согласен на обработку моих персональных данных в соответствии с Условиями</div>
         </div>
@@ -114,9 +114,15 @@
     <section class="author">
         <div class="container">
             <div class="author__about">
-                <div class="author__fhoto">
+<!--                 <div class="author__fhoto">
                     <img class="author__img" src="img/author_img.png" alt="Aloria photo">
-                </div>
+                </div> -->
+
+                <picture class="author__fhoto">
+                    <source srcset="img/author_img_thin.png" media="(max-width: 1140px) and (min-width: 768px)">
+                    <source srcset="img/author_img_thin.png" media="(max-width: 575px)">
+                    <img srcset="img/author_img.png" alt="My default image">
+                </picture>
                 <div class="author__info">
                     <div class="author__title">Автор практикума Алория Собинова</div>
                     <ul class="author__items">

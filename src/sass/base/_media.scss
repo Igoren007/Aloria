@@ -1,141 +1,494 @@
-@media (max-width: 1600px) {
-    .screen2 {
-        
-    }
-}
-@media (max-width: 1400px) {
-    .promo {
-        &__info {
-            margin-left: 45%;
-        }   
-    }
-    .screen2 {
 
-    }
-}
-
-@media (max-width: 1200px) {
-    .header {
-        
-    }
+@media (max-width: 1140px) {
     .promo {
-        min-height: 700px;
-        padding: 50px 0 50px 0;
-        &__info {
-            width: 50%;
-            display: block;
-            margin-left: 35%;
+        &__header {
+            padding-top: 70px;
         }
         &__title {
-            color: #ffffff;
-            font-family: "Montserrat";
-            font-size: 90px;
-            font-weight: 700;
-            line-height: 108.56px;
-            text-transform: uppercase;
-        }
-        &__text {
-            margin-top: 40px;
-            margin-bottom: 58px;
-            color: #ffffff;
-            font-size: 18px;
-            font-weight: 400;
-            line-height: 30px;
-            letter-spacing: 0.45px;
-        }
-    }
-    .screen2 {
-        &__wrap {
-            margin-top: 70px;
-            width: 45%;
-            margin-right: 2%;
-        }
-        &__title {
-            text-align: center;
+            margin-top: 50px;
+            padding: 0 230px;
             font-size: 40px;
             line-height: 60px;
-
         }
+        &__subtitle {
+            font-size: 20px;
+        }
+        &__form {
+            margin: 45px auto 0 auto;
+        }
+    }
+
+    .screen2 {
+        padding: 50px 40px 0 40px;
+        &__item {
+            padding: 50px 97px 20px 97px;
+        }
+    }
+
+    .program {
+        padding: 70px 120px;
+    }
+
+    .must-be {
+        &__title {
+            padding: 0 240px 36px 240px;
+        }
+    }
+
+    .author {
+        padding: 40px 0 0px 0;
+        &__about {
+            margin-bottom: 40px;
+        }
+        &__gallery {
+            display: flex;
+            justify-content: space-between;
+        }
+        &__gallery-item {
+            width: 360px;
+            height: 220px;
+            & img {
+                max-width: 90%;
+                height: auto;
+            }
+        }
+    }
+
+    .footer {
+        padding: 30px 25px 37px 25px; 
     }
 }
 
 @media (max-width: 992px) {
     .promo {
-        min-height: 600px;
-        &__info {
-            width: 90%;
-            display: block;
-            margin: 0 auto;
-        }   
+        &__header {
+            padding-top: 30px;
+            padding-right: 170px;
+            padding-left: 170px;
+        }
+        &__logo {
+            display: inline-block;
+            position: relative;
+            top: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
         &__title {
-            color: #ffffff;
-            font-family: "Montserrat";
-            font-size: 70px;
-            font-weight: 700;
-            line-height: 80px;
-            text-transform: uppercase;
-            text-align: center;
+            margin-top: 50px;
+            padding: 0 130px;
+            font-size: 40px;
+            line-height: 60px;
         }
+        &__subtitle {
+            font-size: 20px;
+            padding: 0 100px;
+        }
+
         &__text {
-            margin-top: 40px;
-            margin-bottom: 58px;
-            color: #ffffff;
-            font-size: 18px;
-            font-weight: 400;
-            line-height: 30px;
-            letter-spacing: 0.45px;
-            text-align: center;
-        }
-        .button {
-            display: block;
-            margin: 0 auto;
+            margin-top: 10px;
         }
     }
+
     .screen2 {
-        min-height: 500px;
-        &__img {
-            display: none;
-        }
-        &__wrap {
-            margin-top: 40px;
-            width: 90%;
-            margin-right: 5%;
-            margin-left: 5%;
-        }
-        &__text {
-            margin-top: 52px;
-            margin-bottom: 50px;
+        padding: 50px 10px 0 10px;
+        &__item {
+            padding: 30px 10px 30px 10px;
+            &-text1 {
+                padding-left: 10px;
+                & p {
+                    padding-bottom: 20px;
+                    margin: 0;
+                }
+                & p:nth-child(3) {
+                    padding-right: 0px;
+                }
+            }
+            &-text2 {
+                padding-right: 29px;
+                & p {
+                    padding-bottom: 20px;
+                    margin: 0;
+                }
+            }
         }
     }
-    .button {
-        display: block;
-        margin: 0 auto;
+
+    .program {
+        padding: 70px 5px;
+    }
+
+    .must-be {
+        &__title {
+            padding: 0 120px 36px 120px;
+        }
+    }
+
+    .author {
+        padding: 40px 0 0px 0;
+        &__photo {
+            width: 458px;
+            height: 406px;
+        }
+        &__img {
+            max-width: 100%;
+            height: auto;
+        }
+        &__info {
+            padding-left: 5px;
+        }
+        &__title {
+            padding: 0 50px 0 50px;
+            text-align: center;
+        }
+        &__items {
+            padding-right: 5px;
+        }
+        &__item {
+            line-height: 20px;
+            margin-bottom: 10px;
+        }
+        &__gallery {
+            display: flex;
+            justify-content: space-between;
+        }
+        &__gallery-item {
+            width: 360px;
+            height: 220px;
+            & img {
+                max-width: 90%;
+                height: auto;
+            }
+        }
+    }
+    .results {
+        padding-bottom: 70px;
+        margin-top: -140px;
+    }
+    .comment {
+        padding: 20px;
+        width: 96%;
+        margin-bottom: 60px;
+        &:before {
+            right: 5%;
+            top: -10px;   
+        }
     }
 }
 
 @media (max-width: 767px) {
     .promo {
-        min-height: 600px;  
+
+        &__header {
+            padding: 40px 100px 0px 100px;
+            text-align: center;
+        }
+        &__date {
+            margin-top: 10px;
+        }
         &__title {
-            font-size: 50px;
-            line-height: 50px;
+            margin-top: 30px;
+            padding: 0 130px;
+            font-size: 40px;
+            line-height: 42px;
+        }
+        &__subtitle {
+            padding-top: 50px;
+            font-size: 20px;
+            padding: 10px 40px;
+            line-height: 24px;
+        }
+        &__form {
+            margin-top: 20px;
+            flex-direction: row;
+            padding-right: 100px;
+            padding-left: 100px; 
+            justify-content: center;
+            align-items: center;
+            &-input {
+                padding: 0 20px;
+                margin-bottom: 15px;
+            }
+        }
+        &__text {
+            padding: 0 100px;
+            margin-top: 80px;
         }
     }
+
     .screen2 {
-        min-height: 600px;
+        &__item {
+            padding: 30px 20px 30px 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            &-text1 {
+                padding-left: 0px;
+                text-align: justify;
+                padding-top: 20px;
+            }
+            &-img2 {
+                order: -1;
+            }
+            &-text2 {
+                padding-right: 0px;
+                padding-top: 20px;
+                & p {
+                    text-align: justify;
+                }
+            }
+        }
+    }
+    .sign-up {
+        min-height: 376px;
+        padding: 50px 50px 0 50px;
+    }
+
+    .program {
+        padding: 40px 5px;  
+        &__wrap {
+            width: 575px;
+        }
+        &__title {
+            padding: 20px 0;
+            font-size: 26px;
+        }
+        &__items {
+            padding: 0 20px 0 50px;
+        }
+        &__item {
+            font-size: 18px;
+            line-height: 22px;
+            margin-bottom: 14px;
+        }
         &__text {
-            margin-top: 30px;
+            padding: 0 70px 50px 50px;
+        }
+        &__results {
+            padding: 7px 0;
+            font-size: 28px;
+        }
+        &__results-items {
+            padding: 30px 40px 10px 84px;
+        }
+        &__result-item {
+            margin-bottom: 15px;
+            &:before {
+                left: 20px;
+              }
+        }
+    }
+
+    .must-be {
+        &__title {
+            padding: 0 70px 26px 70px;
+            font-size: 24px;
+            line-height: 36px;
+        }
+    }
+
+    .author {
+        &__about {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+        }
+        &__info {
+            padding-left: 5px;
+            padding-right: 15px;
+        }
+        &__title {
+            padding: 0 90px 0 90px;
+            font-size: 30px;
+            line-height: 36px;
+            color: #232323;
             margin-bottom: 30px;
+        }
+        &__item {
+            &:before {
+                left: -25px;
+                top: 7px;
+            }
+        }
+        &__gallery {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        &__gallery-item {
+            width: 360px;
+            height: 220px;
+            margin-top: 5px;
+            & img {
+                max-width: 100%;
+                height: auto;
+            }
+        }
+    }
+    .results {
+        padding-bottom: 50px;
+        margin-top: -50px;
+        &__title {
+            font-size: 26px;
+            line-height: 28px;
+        }
+    }
+
+    .footer {
+        &__support-title {
+            font-size: 16px;
+        }
+        &__support-mail {
+            font-size: 16px;
+        }
+        &__partnet-title {
+            font-size: 16px;
         }
     }
 }
 
 @media (max-width: 575px) {
     .promo {
-        min-height: 600px;  
+
+        &__header {
+            padding: 20px 70px 0px 70px;
+            text-align: center;
+        }
         &__title {
-            font-size: 40px;
-            line-height: 40px;
+            padding: 0 0px;
+            font-size: 32px;
+            line-height: 32px;
+        }
+        &__subtitle {
+            padding: 0px;
+            line-height: 24px;
+        }
+        &__form {
+            margin-top: 20px;
+            width: 100%;
+            padding-right: 30px;
+            padding-left: 30px; 
+            &-input {
+                margin-bottom: 15px;
+            }
+        }
+        &__text {
+            padding: 0 30px;
+            margin-top: 80px;
+        }
+    }
+
+    .screen2 {
+        &__item {
+            padding: 30px 5px 5px 20px;
+        }
+    }
+    .sign-up {
+        min-height: 376px;
+        padding: 30px 20px 10px 20px;
+    }
+    .program {
+        padding: 40px 5px;  
+        &__wrap {
+            width: 100%;
+        }
+        &__title {
+            padding: 20px 0;
+            font-size: 26px;
+        }
+        &__items {
+            padding: 0 10px 0 50px;
+        }
+        &__item {
+            font-size: 18px;
+            line-height: 22px;
+            margin-bottom: 14px;
+        }
+        &__text {
+            padding: 0 30px 50px 50px;
+        }
+        &__results {
+            padding: 7px 0;
+            font-size: 28px;
+        }
+        &__results-items {
+            padding: 30px 20px 10px 60px;
+        }
+        &__result-item {
+            margin-bottom: 15px;
+            &:before {
+                left: 10px;
+                line-height: 30px;
+                width: 30px;
+                height: 30px;
+                font-size: 18px;
+              }
+        }
+    }
+
+    .must-be {
+        &__title {
+            padding: 0 40px 26px 40px;
+            font-size: 24px;
+            line-height: 28px;
+        }
+    }
+
+    .screen2 {
+        &__item {
+            &-img1 {
+                width: 363px;
+                height: 345px;
+                & img {
+                    height: 100%;
+                }
+            }
+            &-img2 {
+                width: 250px;
+                height: 275px;
+                & img {
+                    height: 100%;
+                }
+            }       
+        }
+    }
+
+    .program {
+        &__results {
+            padding: 5px 0;
+            font-size: 22px;
+            line-height: 22px;
+        }
+    }
+
+    .footer {
+        &__wrap {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        &__support-title {
+            text-align: center;
+        }
+        &__support-mail {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        &__partnet-title {
+            padding-top: 20px;
+            text-align: center;
+            padding-bottom: 10px;
+        }
+        &__ip-name {
+            text-align: center;
+        }
+        &__inn {
+            text-align: center;
+        }
+        &__politic {
+            text-align: center;
         }
     }
 }
